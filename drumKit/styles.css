@@ -1,0 +1,38 @@
+body {
+	background-image: url("images/background.jpeg");
+	background-position: center;
+	font-family: monospace;
+}
+
+.keys {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	min-height: 100vh;
+}
+
+.key {
+	border: 2px solid #fff;
+	border-radius: 5px;
+	margin: 30px;
+	padding: 15px 30px;
+	width: 30px;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	color: rgb(236, 117, 220);
+	transition: all 0.07s ease;
+}
+
+.playing {
+	transform: scale(1.3);
+	border-color: rgb(131, 54, 121);
+	box-shadow: 0 0 5px rgb(131, 54, 121);
+}
+
+kbd {
+	font-size: 35px;
+	color: #ffff;
+	text-align: center;
+}
